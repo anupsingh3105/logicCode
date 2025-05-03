@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "longestPallindrome",
+            "request": "launch",
+            "mainClass": "longestPallindrome",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
             "name": "checkPrimeNum",
             "request": "launch",
             "mainClass": "checkPrimeNum",

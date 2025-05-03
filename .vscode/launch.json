@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "checkPrimeNum",
+            "request": "launch",
+            "mainClass": "checkPrimeNum",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
+            "name": "primeNum",
+            "request": "launch",
+            "mainClass": "primeNum",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
+            "name": "pallindrome",
+            "request": "launch",
+            "mainClass": "pallindrome",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

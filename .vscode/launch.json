@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "allZerosOnLeft",
+            "request": "launch",
+            "mainClass": "allZerosOnLeft",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
             "name": "closetDistance_pair",
             "request": "launch",
             "mainClass": "closetDistance_pair",

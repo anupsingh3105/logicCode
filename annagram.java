@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,4 +33,49 @@ public class annagram {
         System.out.println("This is Aanagram");
 
     }
+
+    // public static void main(String[] args) {
+    // String str1 = "lislln";
+    // String str2 = "siltnl";
+    // boolean flag = false;
+
+    // int[] num = new int[str1.length()];
+    // if (str1.length() == str2.length()) {
+    // for (int i = 0; i < str1.length(); i++) {
+    // flag = false;
+
+    // for (int j = 0; j < str2.length(); j++) {
+    // if (str1.charAt(i) == str2.charAt(j) && num[j] == 0) {
+    // num[j] = -1;
+    // flag = true;
+    // break;
+    // }
+    // }
+
+    // if (!flag) {
+    // System.out.println("Strings are not anagram");
+    // return;
+    // }
+    // }
+    // }
+
+    // System.out.println("Strings are anagram");
+    // }
+
+    // public static void main(String[] args) {
+    // String str1 = "lislln";
+    // String str2 = "sillnl";
+
+    // char[] arr1 = str1.toCharArray();
+    // char[] arr2 = str2.toCharArray();
+
+    // Arrays.sort(arr1);
+    // Arrays.sort(arr2);
+
+    // if (Arrays.equals(arr1, arr2)) {
+    // System.out.println("This is anagram");
+    // } else
+    // System.out.println("This is not anagram");
+
+    // }
 }

@@ -1,0 +1,35 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class annagram {
+    public static void main(String[] args) {
+        String str1 = "worth";
+        String str2 = "throw";
+        Map<Character, Integer> hmap1 = new HashMap<>();
+        Map<Character, Integer> hmap2 = new HashMap<>();
+        if (str1.length() != str2.length()) {
+            System.out.println("This is not Annagram Size is not same");
+            return;
+        }
+        for (int i = 0; i < str1.length(); i++) {
+            if (hmap1.containsKey(str1.charAt(i))) {
+                hmap1.put(str1.charAt(i), hmap1.get(str1.charAt(i)) + 1);
+            } else
+                hmap1.put(str1.charAt(i), 1);
+
+            hmap2.put(str2.charAt(i), hmap2.getOrDefault(str2.charAt(i), 0) + 1);
+
+        }
+
+        for (Map.Entry<Character, Integer> entry : hmap1.entrySet()) {
+            char ch = entry.getKey();
+            if (hmap2.get(ch) != entry.getValue()) {
+                System.out.println("This is not Annagram");
+                return;
+            }
+
+        }
+        System.out.println("This is Aanagram");
+
+    }
+}

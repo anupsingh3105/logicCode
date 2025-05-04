@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "annagram",
+            "request": "launch",
+            "mainClass": "annagram",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
             "name": "allZerosOnLeft",
             "request": "launch",
             "mainClass": "allZerosOnLeft",

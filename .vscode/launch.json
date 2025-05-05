@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "firstNonRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "firstNonRepeatingCharacter",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
+            "name": "reverseStringPreservingSpaces",
+            "request": "launch",
+            "mainClass": "reverseStringPreservingSpaces",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
             "name": "annagram",
             "request": "launch",
             "mainClass": "annagram",

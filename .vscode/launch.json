@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverseAlternateWords",
+            "request": "launch",
+            "mainClass": "reverseAlternateWords",
+            "projectName": "logicCode_1ef4443a"
+        },
+        {
+            "type": "java",
             "name": "firstNonRepeatingCharacter",
             "request": "launch",
             "mainClass": "firstNonRepeatingCharacter",

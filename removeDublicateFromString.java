@@ -8,9 +8,9 @@ class Main {
             // if (out.indexOf(ch) == -1 || ch == ' ') {
             // out = out + ch;
             // }
-            if (ch == ' ') {
-                out = out + ch;
-            }
+            // if (ch == ' ') {
+            // out = out + ch;
+            // }
             if (out.indexOf(ch) == -1) {
                 out = out + ch;
             }

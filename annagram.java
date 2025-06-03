@@ -3,8 +3,8 @@ import java.util.Map;
 
 public class annagram {
     public static void main(String[] args) {
-        String str1 = "worth";
-        String str2 = "throw";
+        String str1 = "tomato";
+        String str2 = "matoto";
         Map<Character, Integer> hmap1 = new HashMap<>();
         Map<Character, Integer> hmap2 = new HashMap<>();
         if (str1.length() != str2.length()) {
